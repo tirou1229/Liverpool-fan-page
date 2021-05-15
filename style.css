@@ -47,4 +47,51 @@ Top Header
 .navigation{
     margin-left: 350px;
     margin-right: 350px;
+    font-weight: bold;
+}
+
+.lfc-bg-image{
+    margin-top: -60px;
+}
+
+.event-block {
+    color: #d32626;
+    margin-top: 5px;
+}
+
+#countdown-timer {
+    font-family: 'Raleway';
+    margin: auto;
+}
+
+.notice-bar-title-icon{
+	display:inline-block;
+	margin-right:15px;
+}
+.notice-bar-title .title-note{
+	margin-top:4px;
+}
+.notice-bar-title strong{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:700;
+	letter-spacing:2px;
+	display:block;
+}
+.notice-bar-event-title h5, .notice-bar-event-title,.notice-bar-event-title a{
+	margin-bottom:0;
+    color: #d32626;
+}
+
+#countdown-timer span {
+    display: inline-block;
+    width: 50px;
+    padding: 10px 10px;
+    margin: 5px;
+    background: #d32626;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
 }

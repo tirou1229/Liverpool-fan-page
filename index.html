@@ -25,6 +25,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
 
@@ -80,7 +81,49 @@
                 </div>
             </div>
         </nav>
-    </div>
+        <!-- Background image -->
+        <div class="view lfc-bg-image" style="background-image: url('images/liverpool\ champions.jpg'); background-repeat: no-repeat; background-size: cover; height: 70em;"></div>
+        </div>
+       
+        <!--
+            End of:
+            1.background image
+            2.Navbar 1 and 2
+
+            Start of countdown event section
+        -->
+
+
+        <div class="container">
+        <div class="event-block row">
+            <div class="col-md-3 col-sm-6 col-xs-6 notice-bar-title"> 
+                <span class="notice-bar-title-icon hidden-xs float-left">
+                    <i class="fa fa-calendar fa-3x"></i>
+                </span> 
+                <span class="title-note">Prochain</span> 
+                <strong>Evénement</strong> 
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 notice-bar-event-title">         
+                <h5><a href="#">Rencontre à Paris</a></h5>                 
+                <span class="meta-data">22 Mai 2021</span> 
+            </div>
+            <div id="countdown-timer" class="col-md-3 col-sm-6 col-xs-6">
+                <div id="timer-wrap">
+                    <span id="days">00</span>
+                    <span id="hours">00</span>
+                    <span id="minutes">00</span>
+                    <span id="seconds">00</span></div>
+            </div>
+        </div>
+        </div>
+
+        <!--
+            End of countdown event section
+        -->
+
+
+        
+
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
