@@ -79,9 +79,10 @@ Top Header
 	letter-spacing:2px;
 	display:block;
 }
-.notice-bar-event-title h5, .notice-bar-event-title,.notice-bar-event-title a{
+.notice-bar-event-title h5, .notice-bar-event-title,.notice-bar-event-title a, .actualite{
 	margin-bottom:0;
     color: #d32626;
+    font-family: 'Raleway', sans-serif;
 }
 
 #countdown-timer span {
