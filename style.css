@@ -79,7 +79,7 @@ Top Header
 	letter-spacing:2px;
 	display:block;
 }
-.notice-bar-event-title h5, .notice-bar-event-title,.notice-bar-event-title a, .actualite{
+.notice-bar-event-title h5, .notice-bar-event-title,.notice-bar-event-title a, .section{
 	margin-bottom:0;
     color: #d32626;
     font-family: 'Raleway', sans-serif;
@@ -95,4 +95,10 @@ Top Header
     color: #fff;
     font-weight: bold;
     font-size: 22px;
+}
+
+/*Gallery section*/
+
+.step1, .step2{
+    margin: 15px;;
 }
